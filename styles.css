@@ -4,8 +4,10 @@ header{
 }
 .top{
     display:flex;
-    justify-content: space-around;
+    justify-content:center;
     margin-bottom: 50px;
+    gap: 270px;
+    min-width: none;
 }
 .logo{
     color: #F9FAF8;
@@ -29,8 +31,8 @@ a{
 }
 .middle {
     display: flex;
-    justify-content: space-around;
-    gap:2px;
+    justify-content: center;
+    gap:110px;
     color: #F9FAF8;
     margin-left: 85px;
 }
