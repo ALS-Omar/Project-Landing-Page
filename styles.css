@@ -19,6 +19,10 @@ ul{
     display: flex;
     gap:16px;
 }
+a{
+    text-decoration: none;
+    color:#F9FAF8 ;
+}
 .links{
     color:#F9FAF8;
     font-size: 18px;
@@ -52,10 +56,43 @@ img{
     margin-bottom: 100px;
     border-radius: 10px;
 }
-.info{
+.title{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-bottom:30px;
+    font-size:36px;
     font-weight: bold;
-    font-size: 26px;
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    flex-wrap: wrap;
+}
+.card{
+    width:150px;
+    height:150px;
+    border-radius: 10px;
+    
+}
+p{
+    width: 150px;
+}
+.bottom{
+    background-color: #e5e7eb;
+    height:250px;
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+    text-align: center; 
+    margin-top: 40px;
+}
+#quote{
+    padding-top: 60px;
+}
+#author{
+    text-align: right;
+    padding-right: 100px;
+    font-weight: bold;
 }
